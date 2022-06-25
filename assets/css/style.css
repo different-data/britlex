@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2'), url('../fonts/Poppins-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/Poppins-Medium.woff2') format('woff2'), url('../fonts/Poppins-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/Poppins-SemiBold.woff2') format('woff2'), url('../fonts/Poppins-Regular.woff') format('woff');
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+
+/* line-height: 0; */
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 16px; */
+    /* list-style: none; */
+    font-style: normal;
+    /* overflow-x: hidden; */
+    background: #bfbbbb;
+    /* background: #E5E5E5; */
+    -webkit-font-smoothing: antialiased;
+    color: black;
+}
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1368px;
+    margin: 0 auto;
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+a {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul,
+ol,
+li {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    display: block;
+    max-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+button {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    background: inherit;
+}
